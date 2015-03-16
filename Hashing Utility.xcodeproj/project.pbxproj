@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1463227F1AB4CF5800AABF32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463227E1AB4CF5800AABF32 /* AppDelegate.swift */; };
+		146322811AB4CF5800AABF32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146322801AB4CF5800AABF32 /* ViewController.swift */; };
+		146322831AB4CF5800AABF32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146322821AB4CF5800AABF32 /* Images.xcassets */; };
+		146322861AB4CF5800AABF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146322841AB4CF5800AABF32 /* Main.storyboard */; };
+		146322921AB4CF5800AABF32 /* Hashing_UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146322911AB4CF5800AABF32 /* Hashing_UtilityTests.swift */; };
+		149C28851AB5F79F00545DE2 /* Hmac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149C28841AB5F79F00545DE2 /* Hmac.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1463228C1AB4CF5800AABF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146322711AB4CF5800AABF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 146322781AB4CF5800AABF32;
+			remoteInfo = "Hashing Utility";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		146322791AB4CF5800AABF32 /* Hashing Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hashing Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1463227D1AB4CF5800AABF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1463227E1AB4CF5800AABF32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		146322801AB4CF5800AABF32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		146322821AB4CF5800AABF32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		146322851AB4CF5800AABF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1463228B1AB4CF5800AABF32 /* Hashing UtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hashing UtilityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		146322901AB4CF5800AABF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146322911AB4CF5800AABF32 /* Hashing_UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashing_UtilityTests.swift; sourceTree = "<group>"; };
+		149C28841AB5F79F00545DE2 /* Hmac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hmac.swift; sourceTree = "<group>"; };
+		149C288F1AB5FF7200545DE2 /* Hashing-Utility-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hashing-Utility-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146322761AB4CF5800AABF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146322881AB4CF5800AABF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146322701AB4CF5800AABF32 = {
+			isa = PBXGroup;
+			children = (
+				1463227B1AB4CF5800AABF32 /* Hashing Utility */,
+				1463228E1AB4CF5800AABF32 /* Hashing UtilityTests */,
+				1463227A1AB4CF5800AABF32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1463227A1AB4CF5800AABF32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146322791AB4CF5800AABF32 /* Hashing Utility.app */,
+				1463228B1AB4CF5800AABF32 /* Hashing UtilityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1463227B1AB4CF5800AABF32 /* Hashing Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1463227E1AB4CF5800AABF32 /* AppDelegate.swift */,
+				146322801AB4CF5800AABF32 /* ViewController.swift */,
+				146322821AB4CF5800AABF32 /* Images.xcassets */,
+				146322841AB4CF5800AABF32 /* Main.storyboard */,
+				1463227C1AB4CF5800AABF32 /* Supporting Files */,
+				149C28841AB5F79F00545DE2 /* Hmac.swift */,
+				149C288F1AB5FF7200545DE2 /* Hashing-Utility-Bridging-Header.h */,
+			);
+			path = "Hashing Utility";
+			sourceTree = "<group>";
+		};
+		1463227C1AB4CF5800AABF32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1463227D1AB4CF5800AABF32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1463228E1AB4CF5800AABF32 /* Hashing UtilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				146322911AB4CF5800AABF32 /* Hashing_UtilityTests.swift */,
+				1463228F1AB4CF5800AABF32 /* Supporting Files */,
+			);
+			path = "Hashing UtilityTests";
+			sourceTree = "<group>";
+		};
+		1463228F1AB4CF5800AABF32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146322901AB4CF5800AABF32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146322781AB4CF5800AABF32 /* Hashing Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146322951AB4CF5800AABF32 /* Build configuration list for PBXNativeTarget "Hashing Utility" */;
+			buildPhases = (
+				146322751AB4CF5800AABF32 /* Sources */,
+				146322761AB4CF5800AABF32 /* Frameworks */,
+				146322771AB4CF5800AABF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hashing Utility";
+			productName = "Hashing Utility";
+			productReference = 146322791AB4CF5800AABF32 /* Hashing Utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1463228A1AB4CF5800AABF32 /* Hashing UtilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146322981AB4CF5800AABF32 /* Build configuration list for PBXNativeTarget "Hashing UtilityTests" */;
+			buildPhases = (
+				146322871AB4CF5800AABF32 /* Sources */,
+				146322881AB4CF5800AABF32 /* Frameworks */,
+				146322891AB4CF5800AABF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1463228D1AB4CF5800AABF32 /* PBXTargetDependency */,
+			);
+			name = "Hashing UtilityTests";
+			productName = "Hashing UtilityTests";
+			productReference = 1463228B1AB4CF5800AABF32 /* Hashing UtilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146322711AB4CF5800AABF32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = codespy;
+				TargetAttributes = {
+					146322781AB4CF5800AABF32 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1463228A1AB4CF5800AABF32 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 146322781AB4CF5800AABF32;
+					};
+				};
+			};
+			buildConfigurationList = 146322741AB4CF5800AABF32 /* Build configuration list for PBXProject "Hashing Utility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146322701AB4CF5800AABF32;
+			productRefGroup = 1463227A1AB4CF5800AABF32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146322781AB4CF5800AABF32 /* Hashing Utility */,
+				1463228A1AB4CF5800AABF32 /* Hashing UtilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146322771AB4CF5800AABF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146322831AB4CF5800AABF32 /* Images.xcassets in Resources */,
+				146322861AB4CF5800AABF32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146322891AB4CF5800AABF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146322751AB4CF5800AABF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146322811AB4CF5800AABF32 /* ViewController.swift in Sources */,
+				149C28851AB5F79F00545DE2 /* Hmac.swift in Sources */,
+				1463227F1AB4CF5800AABF32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146322871AB4CF5800AABF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146322921AB4CF5800AABF32 /* Hashing_UtilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1463228D1AB4CF5800AABF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 146322781AB4CF5800AABF32 /* Hashing Utility */;
+			targetProxy = 1463228C1AB4CF5800AABF32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		146322841AB4CF5800AABF32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146322851AB4CF5800AABF32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		146322931AB4CF5800AABF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		146322941AB4CF5800AABF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		146322961AB4CF5800AABF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hashing Utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(SRCROOT)/$(PROJECT_NAME)/Hashing-Utility-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		146322971AB4CF5800AABF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hashing Utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Hashing-Utility-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(SRCROOT)/$(PROJECT_NAME)/Hashing-Utility-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		146322991AB4CF5800AABF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hashing UtilityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hashing Utility.app/Contents/MacOS/Hashing Utility";
+			};
+			name = Debug;
+		};
+		1463229A1AB4CF5800AABF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hashing UtilityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hashing Utility.app/Contents/MacOS/Hashing Utility";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146322741AB4CF5800AABF32 /* Build configuration list for PBXProject "Hashing Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146322931AB4CF5800AABF32 /* Debug */,
+				146322941AB4CF5800AABF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146322951AB4CF5800AABF32 /* Build configuration list for PBXNativeTarget "Hashing Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146322961AB4CF5800AABF32 /* Debug */,
+				146322971AB4CF5800AABF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146322981AB4CF5800AABF32 /* Build configuration list for PBXNativeTarget "Hashing UtilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146322991AB4CF5800AABF32 /* Debug */,
+				1463229A1AB4CF5800AABF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 146322711AB4CF5800AABF32 /* Project object */;
+}
